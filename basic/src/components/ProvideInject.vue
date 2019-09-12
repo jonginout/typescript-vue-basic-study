@@ -7,7 +7,7 @@
 <script lang="ts">
 import { Component, Vue, Prop, Watch, Inject, Provide } from 'vue-property-decorator';
 
-@Component
+@Component({})
 export default class ProvideInject extends Vue {
     /**
      * 부모에서 받아오는 값이라 초기화 하면 안된다.

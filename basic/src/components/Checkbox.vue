@@ -7,7 +7,7 @@
 <script lang="ts">
 import { Component, Vue, Model, Emit } from 'vue-property-decorator';
 
-@Component
+@Component({})
 export default class Checkbox extends Vue {
     /**
      * 첫번째 인자는 이벤트명
@@ -17,7 +17,7 @@ export default class Checkbox extends Vue {
 
     @Emit('change')
     public onChangeCheckBox(event: Event) {
-        return event.target.checked;
+        return event.target.checked
     }
     /*
         순수. js

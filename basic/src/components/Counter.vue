@@ -8,7 +8,7 @@
 <script lang="ts">
 import { Component, Vue, Prop, Watch, Emit } from 'vue-property-decorator';
 
-@Component
+@Component({})
 export default class Counter extends Vue {
     public count: number = 0;
 

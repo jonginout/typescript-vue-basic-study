@@ -15,7 +15,7 @@ import { Component, Vue } from 'vue-property-decorator';
  * @Component 데코레이터를 붙혀준다.
  * 여기서 사용하는건 Class Decorator
  */
-@Component
+@Component({})
 export default class Message extends Vue {
     public message: string = '메시지를 입력해주세요';
 }
