@@ -1,6 +1,7 @@
 <template>
   <!-- https://github.com/kaorun343/vue-property-decorator#Model -->
   <div class="home">
+    <h1>VUE TS BASIC</h1>
     <!-- 컴포넌트 -->
     <message/>
     <hr>
